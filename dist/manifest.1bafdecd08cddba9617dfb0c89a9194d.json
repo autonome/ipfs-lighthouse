@@ -1,0 +1,9 @@
+{
+  "name": "IPFS Lighthouse",
+  "short_name": "IPFSLighthouse",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": ".",
+  "description": "Test IPFS on Lighthouse.",
+  "background_color": "#ffffff"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "ipfs-lighthouse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --open",
+    "clean": "rm dist/bundle.js",
+    "build-dev": "webpack -d --mode development",
+    "build-prod": "webpack -p --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Dietrich Ayala <autonome@gmail.com> (http://metafluff.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.3.1",
+    "webpack-pwa-manifest": "^4.0.0",
+    "webpack-web-app-manifest-plugin": "^2.0.0",
+    "workbox-webpack-plugin": "^4.3.0"
+  },
+  "dependencies": {
+    "ipfs": "^0.35.0"
+  }
+}
